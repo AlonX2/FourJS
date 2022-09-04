@@ -112,7 +112,7 @@ manager.addComponent(PhysicsManager);
 The PhysicsManager is important since it handles the Physics calls every frame. In addition, it provites a attribute that can help you make your program more efficient:
 
 #### `physicsMangerObject.PhysicsManger.attributes.scope.bindingObj`
-This is an attribute you can use if you want you physics to only be calculated in a cirtain scope. For example if an object gets far from the camera, you might not want its' physics to be calculated anymore. Thus, you can set the bindingObj as the camera, and if an object gets to a certain range away from it, its' physics will no longer be calculated.  
+This is an attribute you can use if you want you physics to only be calculated in a certain scope. For example if an object gets far from the camera, you might not want its' physics to be calculated anymore. Thus, you can set the bindingObj as the camera, and if an object gets to a certain range away from it, its' physics will no longer be calculated.  
 You can set the range of the bindingObj with `physicsMangerObject.PhysicsManger.attributes.scope.range`.
 
 #### The Physics component:
