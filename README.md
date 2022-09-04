@@ -83,7 +83,7 @@ If you wanna implament a spacial case of this method for a specific component wi
 
 some builtin proparties and methods we provide are:
 
-#### `this.attributes'
+#### `this.attributes`
 An array proparty that should be used for all the "settings" of the component. For example if the component moves an object, an attribute could be movement speed.
 
 #### `this.supportsMultipleInstances`
