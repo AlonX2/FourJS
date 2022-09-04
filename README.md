@@ -65,7 +65,7 @@ A component should be a class that extends the Four.Component class.
 Every component has a few "keyword" functions it can use in order to execute code in cirtain times.  
 These functions are:
 
-#### `Awake()`
+#### `awake()`
 These method runs immediately after the component is added to an object (thus, usualy before the frame cycle has bagun), you can look at it as a constuctor.  
 It should be used to create proparties and prepare the structure of the component for frame cycle.
 
