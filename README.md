@@ -2,7 +2,7 @@
 FourJS is a library that adds a physics engine (CannonJS) and component functionality to ThreeJS and streamlines the workflow with the framework.
 
 # short docs
-Note: These docs assume basic familiarity with ThreeJS and javascript.
+Note: These docs assume basic familiarity with ThreeJS and javascript.  
 Note: FourJS is a work in progress.
 
 ## using premade components:
@@ -13,7 +13,7 @@ For example, a component could be a movement system that handles player input an
 The beauty of a component system is its' scalability. once you write a component once, you can add it to how many objects you want.  
 In addition, it provites abstraction, as an object can have multiple components where every component is in charge of a spacific niche in the behavior of the object.
 
-component related methods and attributes:
+**component related methods and attributes:**
 
 #### `Four.include(Object)`
 FourJS sits on top of ThreeJS. That means that you can choose when to extend a ThreeJS obejct with FourJS functionality.  
@@ -63,7 +63,7 @@ returns a component by its' index in the component list.
 #### basic structure of a component:
 A component should be a class that extends the Four.Component class.
 Every component has a few "keyword" functions it can use in order to execute code in cirtain times.  
-These functions are:
+**These functions are:**
 
 #### `awake()`
 These method runs immediately after the component is added to an object (thus, usualy before the frame cycle has bagun), you can look at it as a constuctor.  
@@ -81,7 +81,7 @@ This method is called once every constant amound of time (you can access and cha
 You should use this method for calculations and oparations that should not be framerate dependent (for example moving an object, since if that would be framerate dependent the object would move faster for people who have faster machines, and thus higher framerates).  
 If you wanna implament a spacial case of this method for a specific component with a custom timestep, we suggest using `setInterval(this.lazyUpdate.bind(this), timestep)`. that would create a `lazyUpdate` method with a custom timestep for that specific component.    
 
-some builtin proparties and methods we provide are:
+**some builtin proparties and methods we provide are:**
 
 #### `this.attributes`
 An array proparty that should be used for all the "settings" of the component. For example if the component moves an object, an attribute could be movement speed.
