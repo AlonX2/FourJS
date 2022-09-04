@@ -101,7 +101,7 @@ In addition, we provite a quality of life methods such as:
 A QOL method that can be used when you want to add to the atttributes array a subset of a diffrent settings object. The subset argument is an array/set that spacifies the proparties the subset obejct will have.  
 It returns a proxy that redirects to the original settings object for the "allowed" proparties from the original.
 
-## Using the bultin Physics component:
+## Using the builtin Physics component:
 #### The PhysicsManager:
 In order for the Physics system to work, you first need to create an object with the PhysicsManager component. We suggest not thinking much of it and implamenting it as such (note that this workflow might change in the future):
 ```
