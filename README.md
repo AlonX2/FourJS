@@ -93,7 +93,7 @@ should the user be allowed to add multiple insatnces of this component to a sing
 An event fired when the object is activated. You can subscribe to it with `this.activated.add(this.customOnActivatedMethod, this)`.
 
 #### `this.deactivated`
-An event fired when the object is deactivated. You can subscribe to it with `this.activated.add(this.customOnDeactivatedMethod, this)`.      
+An event fired when the object is deactivated. You can subscribe to it with `this.deactivated.add(this.customOnDeactivatedMethod, this)`.      
 
 In addition, we provite a quality of life methods such as:
 
