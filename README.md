@@ -124,13 +124,15 @@ sets the mass of the object.
 
 #### `Object.Physics.attributes.type`
 The type of physics calculations; Dynamic/Kinematic/Static.  
-You can read more about the diffrent types in the cannonJS docs here: https://pmndrs.github.io/cannon-es/docs/modules.html  
+You can read more about the diffrent types in the cannonJS docs here: https://pmndrs.github.io/cannon-es/docs
 Example of setting a type:
 ```
 import { Body } from '../base_components/Physics.js';
 object.Physics.attributes.type = Body.STATIC;
 ```
-
+#### `Object.Physics.attributes.body`
+This attribute provides full access to the CannonJS methods of manipulating objects with physics. You can use the the CannonJS docs (https://pmndrs.github.io/cannon-es/docs) in order to find out more about the different ways of doing so.  
+Our physics component will make sure the CannonJS position and data are always synced with the ThreeJS position and data.
 
 
 
