@@ -1,6 +1,6 @@
 # what is FourJS?
 FourJS is a library that adds a physics engine (CannonJS) and component functionality to ThreeJS and streamlines the workflow with the framework. 
-
+ 
 # short docs
 Note: These docs assume basic familiarity with ThreeJS and javascript.  
 Note: FourJS is a work in progress.
